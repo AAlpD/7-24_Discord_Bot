@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="tr_TR">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Home Page</title>
+    <style>
+        .not-selectable {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+    </style>
+  </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Asistan</a>
+        </nav>
+        <div style="display: flex; justify-content: space-between;">
+            <p>title="Başlık"<br>
+            description="Açıklama"<br>
+            color=2f3136<br><br>
+            set_thumbnail(<br>
+            https://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ=s48-rw<br>
+            )<br><br>
+            set_image(<br>
+            https://media.discordapp.net/attachments/994567701773160510/994567777874608128/tatlislav.png<br>
+            )<br><br>
+            add_field(<br>
+            name="Field Başlığı 1"<br>
+            value="Field Açıklama 1"<br>
+            inline=False<br>
+            )</p>
+            <p class=not-selectable><br>*optional<br>
+                *optional(hex or base 16)<br><br>
+                *optional(http or https)<br><br><br><br>
+                *optional(http or https)<br><br><br><br>
+                *optional<br><br><br>
+                *optional<br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            </p>
+        </div>
+        <button onclick="myFunction()">Copy text</button>
+        <script>
+        function myFunction() {
+            navigator.clipboard.writeText('\\embed ```\ntitle="Başlık"\ndescription="Açıklama"\ncolor=2f3136\n\nset_thumbnail(\nhttps://play-lh.googleusercontent.com/0oO5sAneb9lJP6l8c6DH4aj6f85qNpplQVHmPmbbBxAukDnlO7DarDW0b-kEIHa8SQ=s48-rw\n)\n\nset_image(\nhttps://media.discordapp.net/attachments/994567701773160510/994567777874608128/tatlislav.png\n)\n\nadd_field(\nname="Field Başlığı"\nvalue="Field Açıklama"\ninline=False\n)```');
+        }
+        </script>
+    </body>
+    <style>
+      body {
+        background-color: #212121;
+        color: white
+      }
+  </style>
+</html>
